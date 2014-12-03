@@ -1,0 +1,24 @@
+{
+    "name": "ovicsoft/administrator",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ovicsoft",
+            "email": "software@ovicsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Ovicsoft\\Administrator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
